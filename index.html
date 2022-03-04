@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Australian page</title>
+    <title>Viajes Chile</title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
@@ -21,7 +21,55 @@
 
 <body>
 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark pr-5 bg-dark">
+            <img class="imagen-viajes" src="assets/img/viajes.svg" alt="logo" class="logo-viajes">
+            <div class="texto-viajes">
+                <p>Viajes Chile</p>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbar">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="#quienessomos">¿Quiénes somos?</a>
+                    <a class="nav-link active" aria-current="page" href="#destacados">Destacado</a>
+                    <a class="nav-link active" aria-current="page" href="#contactos">Contacto</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('assets/img/carousel1.jpg')">
+                    <div class="carousel-caption d-none d-md-block">
 
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('assets/img/carousel2.jpg')">
+                    <img class="d-block w-100">
+                </div>
+                <div class="carousel-item" style="background-image: url('assets/img/carousel3.jpg')">
+
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </header>
     <section class="somos">
         <h1 id="quienesomos">¿Quiénes somos?</h1>
         <hr class=linea>
@@ -32,24 +80,23 @@
                         <section>
                             <i class="ocultar-mostrar fas fa-plane"></i>
                         </section>
-                        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Culpa modi quos
-                            deleniti totam, provident aspernatur soluta? Eaque, cumque illo ea aliquid rem soluta
-                            excepturi. Deserunt voluptas eveniet blanditiis possimus nemo!. Lorem, ipsum dolor sit amet
-                            consectetur adipisicing elit. Consectetur ullam magni, eaque doloribus cum tenetur itaque
-                            neque quam aspernatur delectus veritatis fuga praesentium numquam corporis eveniet, nobis,
-                            similique quis obcaecati!</p>
+                        <p class="textos"></p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="parrafos">
-                        <p class="textos">orem ipsum dolor sit amet consectetur adipisicing elit.
-                            Culpa modi quos
-                            deleniti totam, provident aspernatur soluta? Eaque, cumque illo ea aliquid rem soluta
-                            excepturi. Deserunt voluptas eveniet blanditiis possimus nemo! Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Sed error, earum ipsum vero nulla minus omnis dolor quibusdam
-                            accusamus pariatur ut eum totam impedit consequatur similique dicta? Tenetur, voluptatibus
-                            inventore!</p>
+                        <p class="textos">Chile, oficialmente República de Chile,21 es un país soberano, ubicado en el
+                            extremo sur de América del Sur. Adopta la forma de gobierno republicana, democrática,
+                            presidencialista y unitaria. Su capital es la ciudad de Santiago.
+
+                            Está constituido por tres zonas geográficas.4 La primera de ellas, Chile continental,
+                            comprende una franja en la costa occidental del Cono Sur que se extiende entre los paralelos
+                            17°29'57″ S y 56°32'12″ S, mayormente desde la ribera sudoriental del océano Pacífico hasta
+                            
+                            Chileno Antártico,23 es una zona de la Antártida24 de 1 250 257,6 km² entre los meridianos
+                            53° O y 90° O sobre la cual la nación más cercana reclama soberanía, prolongándose hasta el
+                            Polo Sur, pero está supeditada a lo estipulado en el Tratado Antártico, del que es
+                            signataria.2526 Debido a lo mencionado, se define como un país tricontinental.422</p>
                         <section>
                             <i class="ocultar-mostrar2 fa fa-anchor" aria-hidden="true"></i>
                         </section>
@@ -146,10 +193,7 @@
             </section>
 
 
-    </section>
-<p> Hola
-
-</p>
+    </section
 
     <footer id="footer" class="container-fluid  d-md-block  bg-info section-icons fondo-footer">
         <div class="container">
@@ -168,10 +212,6 @@
             </div>
         </div>
     </footer>
-<div>
-    <p>Hola, estoy probando los commits con una pagina australiana
-    </p>
-</div>
 
     <!-- Jquery 3.5.1 -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
